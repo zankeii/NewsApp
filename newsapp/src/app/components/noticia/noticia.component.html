@@ -1,8 +1,8 @@
 <ion-card color="dark">
   <ion-card-header>
     <ion-card-subtitle><span class="new-source-name">{{noticia.source.name}}</span></ion-card-subtitle>
-    <ion-card-title>{{noticia.title}}</ion-card-title>
+    <ion-card-title (click)="openNews()">{{noticia.title}}</ion-card-title>
   </ion-card-header>
-  <ion-img *ngIf="noticia.urlToImage" [src]="noticia.urlToImage"></ion-img>
+  <ion-img *ngIf="noticia.urlToImage" (click)="openNews()" [src]="noticia.urlToImage"></ion-img>
   <ion-card-content>{{noticia.description}}</ion-card-content>
 </ion-card>
