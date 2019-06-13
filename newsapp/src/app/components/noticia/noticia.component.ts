@@ -12,6 +12,7 @@ import {DataLocalService} from "../../services/data-local.service";
 })
 export class NoticiaComponent implements OnInit {
 @Input() noticia: Article;
+  @Input() inFavorites;
   constructor(private datalocalService: DataLocalService, private socialSharing: SocialSharing, private iab: InAppBrowser, private actionSheetController: ActionSheetController) { }
 
   ngOnInit() {}
@@ -22,6 +23,30 @@ openNews() {
 }
 
   async openMenu() {
+
+    let saveDeleteBtn;
+
+    if(this.inFavorites){
+     saveDeleteBtn= {
+        text: 'Delete from favorite',
+            icon: 'trash',
+          cssClass: 'action-dark',
+          handler: () => {
+        console.log('Deleted from favorite');
+        this.datalocalService.deleteNews(this.noticia);
+      }
+      };
+    } else {
+      saveDeleteBtn = {
+        text: 'Favorite',
+            icon: 'star',
+          cssClass: 'action-dark',
+          handler: () => {
+        console.log('Play clicked');
+        this.datalocalService.saveNews(this.noticia);
+      }
+      }
+    }
       const actionSheet = await this.actionSheetController.create({
         mode: 'md',
         backdropDismiss : false,
@@ -38,15 +63,8 @@ openNews() {
                 this.noticia.url
             );
           }
-        }, {
-          text: 'Favorite',
-          icon: 'star',
-          cssClass: 'action-dark',
-          handler: () => {
-            console.log('Play clicked');
-            this.datalocalService.saveNews(this.noticia);
-          }
-        }, {
+        }, saveDeleteBtn,
+          {
           text: 'Cancel',
           icon: 'close',
           cssClass: 'action-dark',

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0626202f-8569-4500-be63-12e2e5c66d3f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsapp/src/app/components/noticias/noticias.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/src/app/components/noticias/noticias.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsapp/src/app/components/noticias/noticias.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/src/app/components/noticias/noticias.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsapp/src/app/services/data-local.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/src/app/services/data-local.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,43 +21,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.html">
+        <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="113">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newsapp/src/app/services/data-local.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -71,8 +53,6 @@
         <option value="$PROJECT_DIR$/newsapp/src/app/interfaces/interfaces.ts" />
         <option value="$PROJECT_DIR$/newsapp/src/app/components/components.module.ts" />
         <option value="$PROJECT_DIR$/newsapp/src/app/pages/tab1/tab1.module.ts" />
-        <option value="$PROJECT_DIR$/newsapp/src/app/components/noticias/noticias.component.ts" />
-        <option value="$PROJECT_DIR$/newsapp/src/app/components/noticias/noticias.component.html" />
         <option value="$PROJECT_DIR$/newsapp/src/app/pages/tabs/tabs.page.html" />
         <option value="$PROJECT_DIR$/newsapp/src/app/pages/tab2/tab2.page.scss" />
         <option value="$PROJECT_DIR$/newsapp/src/environments/environment.ts" />
@@ -88,13 +68,15 @@
         <option value="$PROJECT_DIR$/newsapp/src/theme/variables.scss" />
         <option value="$PROJECT_DIR$/newsapp/src/global.scss" />
         <option value="$PROJECT_DIR$/newsapp/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.ts" />
-        <option value="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.html" />
         <option value="$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.module.ts" />
-        <option value="$PROJECT_DIR$/newsapp/src/app/services/data-local.service.ts" />
         <option value="$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.scss" />
-        <option value="$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.html" />
         <option value="$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.ts" />
+        <option value="$PROJECT_DIR$/newsapp/src/app/components/noticias/noticias.component.ts" />
+        <option value="$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.html" />
+        <option value="$PROJECT_DIR$/newsapp/src/app/components/noticias/noticias.component.html" />
+        <option value="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.html" />
+        <option value="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.ts" />
+        <option value="$PROJECT_DIR$/newsapp/src/app/services/data-local.service.ts" />
       </list>
     </option>
   </component>
@@ -213,12 +195,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560381729811</updated>
       <workItem from="1560381733301" duration="323000" />
-      <workItem from="1560382151833" duration="20702000" />
+      <workItem from="1560382151833" duration="21637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21025000" />
+    <option name="totallyTimeSpent" value="21960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="870" extended-state="0" />
@@ -283,16 +265,6 @@
           <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticias/noticias.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -379,13 +351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticias/noticias.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newsapp/src/app/interfaces/interfaces.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -434,23 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newsapp/src/app/pages/tabs/tabs.page.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -464,27 +412,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newsapp/src/app/services/data-local.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -495,6 +426,54 @@
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticias/noticias.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsapp/src/app/pages/tab3/tab3.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticias/noticias.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsapp/src/app/services/data-local.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
         </state>
       </provider>
     </entry>

@@ -28,4 +28,9 @@ export class DataLocalService {
         }
 
     }
+
+    deleteNews(noticia: Article){
+        this.news = this.news.filter(noti => noti.title !== noticia.title);
+        this.storage.set('favorites', this.news);
+    }
 }
