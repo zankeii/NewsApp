@@ -12,6 +12,7 @@ const headers = new HttpHeaders({'X-Api-Key': apiKey});
     providedIn: 'root'
 })
 export class NewsService {
+    headLinesPage = 0;
 
     constructor(private http: HttpClient) {
     }
@@ -22,7 +23,8 @@ export class NewsService {
     }
 
     getTopHeadLines() {
-        return this.ejecutarQuery<RespuestaTopHeadLine>(`/top-headlines?country=us`);
+        this.headLinesPage++;
+        return this.ejecutarQuery<RespuestaTopHeadLine>(`/top-headlines?country=us&page=${this.headLinesPage}`);
         // tslint:disable-next-line:max-line-length
         // return this.http.get<RespuestaTopHeadLine>(`https://newsapi.org/v2/top-headlines?country=us&apiKey=89a20a43901d404ab8cd1ebb7e3b8804`);
     }
