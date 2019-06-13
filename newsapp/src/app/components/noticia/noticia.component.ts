@@ -3,6 +3,7 @@ import {Article} from "../../interfaces/interfaces";
 import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 import { ActionSheetController } from '@ionic/angular';
 import { SocialSharing } from '@ionic-native/social-sharing/ngx';
+import {DataLocalService} from "../../services/data-local.service";
 
 @Component({
   selector: 'app-noticia',
@@ -11,7 +12,7 @@ import { SocialSharing } from '@ionic-native/social-sharing/ngx';
 })
 export class NoticiaComponent implements OnInit {
 @Input() noticia: Article;
-  constructor(private socialSharing: SocialSharing, private iab: InAppBrowser, private actionSheetController: ActionSheetController) { }
+  constructor(private datalocalService: DataLocalService, private socialSharing: SocialSharing, private iab: InAppBrowser, private actionSheetController: ActionSheetController) { }
 
   ngOnInit() {}
 
@@ -43,6 +44,7 @@ openNews() {
           cssClass: 'action-dark',
           handler: () => {
             console.log('Play clicked');
+            this.datalocalService.saveNews(this.noticia);
           }
         }, {
           text: 'Cancel',
