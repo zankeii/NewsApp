@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="0626202f-8569-4500-be63-12e2e5c66d3f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsapp/ionic.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/ionic.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newsapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newsapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsapp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newsapp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsapp/src/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/src/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsapp/src/theme/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/src/theme/variables.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,16 +27,25 @@
         <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="231">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -43,7 +53,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newsapp/src/global.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newsapp/src/theme/variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newsapp/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -74,7 +102,6 @@
       <list>
         <option value="$PROJECT_DIR$/newsapp/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/newsapp/src/app/interfaces/interfaces.ts" />
-        <option value="$PROJECT_DIR$/newsapp/src/theme/variables.scss" />
         <option value="$PROJECT_DIR$/newsapp/src/app/components/components.module.ts" />
         <option value="$PROJECT_DIR$/newsapp/src/app/pages/tab1/tab1.module.ts" />
         <option value="$PROJECT_DIR$/newsapp/src/app/components/noticias/noticias.component.ts" />
@@ -89,10 +116,13 @@
         <option value="$PROJECT_DIR$/newsapp/src/app/services/news.service.ts" />
         <option value="$PROJECT_DIR$/newsapp/src/app/pages/tab2/tab2.page.html" />
         <option value="$PROJECT_DIR$/newsapp/src/app/pages/tab2/tab2.page.ts" />
+        <option value="$PROJECT_DIR$/newsapp/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.scss" />
         <option value="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.html" />
+        <option value="$PROJECT_DIR$/newsapp/src/theme/variables.scss" />
+        <option value="$PROJECT_DIR$/newsapp/src/global.scss" />
         <option value="$PROJECT_DIR$/newsapp/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.ts" />
-        <option value="$PROJECT_DIR$/newsapp/src/app/app.component.ts" />
       </list>
     </option>
   </component>
@@ -211,16 +241,15 @@
       <option name="presentableId" value="Default" />
       <updated>1560381729811</updated>
       <workItem from="1560381733301" duration="323000" />
-      <workItem from="1560382151833" duration="15250000" />
+      <workItem from="1560382151833" duration="17771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15573000" />
+    <option name="totallyTimeSpent" value="18094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="870" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.8172043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24983476" />
@@ -262,13 +291,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newsapp/src/theme/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -398,36 +420,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newsapp/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newsapp/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsapp/src/theme/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsapp/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsapp/src/global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsapp/src/app/components/noticia/noticia.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
