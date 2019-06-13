@@ -7,6 +7,10 @@ import {DataLocalService} from "../../services/data-local.service";
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page {
+  sliderOpt = {
+    allowSlidePrev: false,
+    allowSlideNext: false
+  };
 
   constructor(public datalocalService: DataLocalService) {
   }

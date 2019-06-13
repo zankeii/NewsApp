@@ -7,5 +7,10 @@
 </ion-header>
 
 <ion-content color="dark">
-  <app-noticias [news]="datalocalService.news"></app-noticias>
+  <ion-slides [options]="sliderOpt" *ngIf="datalocalService.news.length === 0">
+    <ion-slide>
+      <ion-label>You don't have favorite news...</ion-label>
+    </ion-slide>
+  </ion-slides>
+  <app-noticias *ngIf="datalocalService.news.length > 0" [news]="datalocalService.news"></app-noticias>
 </ion-content>
