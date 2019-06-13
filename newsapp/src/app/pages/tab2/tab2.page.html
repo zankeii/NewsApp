@@ -4,7 +4,7 @@
       Search
     </ion-title>
   </ion-toolbar>
-  <ion-segment scrollable="" mode="md" color="primary">
+  <ion-segment scrollable="" mode="md" color="primary" (ionChange)="categoryChange($event)">
     <ion-segment-button *ngFor="let category of categories" mode="md" [value]="category">
       <ion-label>{{category}}</ion-label>
     </ion-segment-button>
@@ -12,5 +12,5 @@
 </ion-header>
 
 <ion-content color="dark">
-
+  <app-noticias [news]="news"></app-noticias>
 </ion-content>
