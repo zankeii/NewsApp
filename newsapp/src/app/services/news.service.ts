@@ -7,6 +7,8 @@ const apiKey = environment.apiKey;
 const apiUrl = environment.apiUrl;
 
 const headers = new HttpHeaders({'X-Api-Key': apiKey});
+const search = '';
+
 
 @Injectable({
     providedIn: 'root'
@@ -25,8 +27,9 @@ export class NewsService {
     }
 
     getTopHeadLines() {
-        this.headLinesPage++;
-        return this.ejecutarQuery<RespuestaTopHeadLine>(`/top-headlines?country=ve&page=${this.headLinesPage}`);
+            this.headLinesPage++;
+            return this.ejecutarQuery<RespuestaTopHeadLine>(`/top-headlines?country=us&page=${this.headLinesPage}`);
+
         // tslint:disable-next-line:max-line-length
         // return this.http.get<RespuestaTopHeadLine>(`https://newsapi.org/v2/top-headlines?country=us&apiKey=89a20a43901d404ab8cd1ebb7e3b8804`);
     }
@@ -39,6 +42,6 @@ export class NewsService {
             this.currentCategory = category;
         }
         // https://newsapi.org/v2/top-headlines?country=de&category=business&apiKey=89a20a43901d404ab8cd1ebb7e3b8804
-        return this.ejecutarQuery<RespuestaTopHeadLine>(`/top-headlines?country=ve&category=${category}&page=${this.categoryPage}`);
+        return this.ejecutarQuery<RespuestaTopHeadLine>(`/top-headlines?country=us&category=${category}&page=${this.categoryPage}`);
     }
 }
