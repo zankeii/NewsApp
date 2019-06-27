@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
-import {RespuestaTopHeadLine} from '../interfaces/interfaces';
+import {Article, RespuestaTopHeadLine} from '../interfaces/interfaces';
 import {environment} from '../../environments/environment';
 
 const apiKey = environment.apiKey;
@@ -31,12 +31,17 @@ export class NewsService {
         // return this.http.get<RespuestaTopHeadLine>(`https://newsapi.org/v2/top-headlines?country=us&apiKey=89a20a43901d404ab8cd1ebb7e3b8804`);
     }
 
+    getBusqueda(busqueda) {
+        return this.ejecutarQuery<Article>(`/everything?q=${busqueda}`);
+    }
+
+
     getTopHeadLinesCategory(category: string) {
-        if ( this.currentCategory === category) {
+        if (this.currentCategory === category) {
             this.categoryPage++;
         } else {
             this.categoryPage = 1;
-            this.currentCategory = category
+            this.currentCategory = category;
         }
         // https://newsapi.org/v2/top-headlines?country=de&category=business&apiKey=89a20a43901d404ab8cd1ebb7e3b8804
         return this.ejecutarQuery<RespuestaTopHeadLine>(`/top-headlines?country=us&category=${category}&page=${this.categoryPage}`);

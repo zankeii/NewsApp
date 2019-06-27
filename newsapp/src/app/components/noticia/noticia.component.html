@@ -1,15 +1,17 @@
 <ion-card color="dark">
   <ion-card-header>
-    <ion-card-subtitle>
-      <span class="new-source-name">{{noticia.source.name}}</span>
+    <ion-img *ngIf="noticia.urlToImage" (click)="openNews()" [src]="noticia.urlToImage"></ion-img>
+    <ion-card-title (click)="openNews()">{{noticia.title}}</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    {{noticia.description}}
+    <ion-card-subtitle class="matop">
+      <span class="new-source-name">{{noticia.source.name}} • {{noticia.publishedAt | date: 'shortTime'}}</span>
       <div class="more">
         <ion-button fill="clear" (click)="openMenu()">
-          <ion-icon slot="icon-only" name="more" color="primary"></ion-icon>
+          <ion-icon slot="icon-only" name="more" color="light"></ion-icon>
         </ion-button>
       </div>
     </ion-card-subtitle>
-    <ion-card-title (click)="openNews()">{{noticia.title}}</ion-card-title>
-  </ion-card-header>
-  <ion-img *ngIf="noticia.urlToImage" (click)="openNews()" [src]="noticia.urlToImage"></ion-img>
-  <ion-card-content>{{noticia.description}}</ion-card-content>
+  </ion-card-content>
 </ion-card>
