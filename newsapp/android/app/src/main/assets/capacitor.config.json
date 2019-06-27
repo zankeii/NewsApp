@@ -1,0 +1,7 @@
+{
+  "appId": "com.newsapp.app",
+  "appName": "newsApp",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

@@ -34,7 +34,7 @@ export class NewsService {
     getTopHeadLinesCategory(category: string) {
         if ( this.currentCategory === category) {
             this.categoryPage++;
-        }else{
+        } else {
             this.categoryPage = 1;
             this.currentCategory = category
         }
