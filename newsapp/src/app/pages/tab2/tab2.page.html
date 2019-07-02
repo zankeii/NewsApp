@@ -15,7 +15,7 @@
   <ion-refresher class="backgroundRefresher" slot="fixed" (ionRefresh)="doRefresh($event)">
     <ion-refresher-content></ion-refresher-content>
   </ion-refresher>
-  <app-noticias [news]="news"></app-noticias>
+  <app-noticias [news]="news" [showDefault]="true"></app-noticias>
 
   <ion-infinite-scroll threshold="100px" (ionInfinite)="loadData($event)">
     <ion-infinite-scroll-content

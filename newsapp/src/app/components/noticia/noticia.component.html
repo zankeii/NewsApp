@@ -1,4 +1,4 @@
-<ion-card color="dark">
+<ion-card *ngIf="showNoticia === true" color="dark">
   <ion-card-header>
     <ion-img *ngIf="noticia.urlToImage" (click)="openNews()" [src]="noticia.urlToImage"></ion-img>
     <ion-card-title (click)="openNews()">{{noticia.title}}</ion-card-title>
@@ -7,6 +7,24 @@
     {{noticia.description}}
     <ion-card-subtitle class="matop">
       <span class="new-source-name">{{noticia.source.name}} • {{noticia.publishedAt | date: 'shortTime'}}</span>
+      <div class="more">
+        <ion-button fill="clear" (click)="openMenu()">
+          <ion-icon slot="icon-only" name="more" color="light"></ion-icon>
+        </ion-button>
+      </div>
+    </ion-card-subtitle>
+  </ion-card-content>
+</ion-card>
+
+<ion-card *ngIf="showBusqueda === true" color="dark">
+  <ion-card-header>
+    <ion-img *ngIf="busqueda.urlToImage" (click)="openNews()" [src]="busqueda.urlToImage"></ion-img>
+    <ion-card-title (click)="openNews()">{{busqueda.title}}</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    {{busqueda.description}}
+    <ion-card-subtitle class="matop">
+      <span class="new-source-name">{{busqueda.source.name}} • {{busqueda.publishedAt | date: 'shortTime'}}</span>
       <div class="more">
         <ion-button fill="clear" (click)="openMenu()">
           <ion-icon slot="icon-only" name="more" color="light"></ion-icon>

@@ -6,7 +6,7 @@
 
   </ion-toolbar>
   <ion-toolbar color="dark">
-    <ion-searchbar color="light" showCancelButton="focus" (keypress)="busquedaNews($event)" mode="ios"></ion-searchbar>
+    <ion-searchbar autocorrect="on" autocomplete="on" color="light" showCancelButton="focus" (keypress)="busquedaNews($event)" mode="ios"></ion-searchbar>
   </ion-toolbar>
 
 </ion-header>
@@ -15,7 +15,9 @@
   <ion-refresher class="backgroundRefresher" slot="fixed" (ionRefresh)="doRefresh($event)">
     <ion-refresher-content></ion-refresher-content>
   </ion-refresher>
-  <app-noticias [news]="news"></app-noticias>
+
+  <app-noticias *ngIf="showbusqueda === false" [news]="news" [showDefault]="showtopheadlines"></app-noticias>
+  <app-noticias *ngIf="showtopheadlines === true " [busquedaArray]="busquedaArray" [showSearch]="showbusqueda"></app-noticias>
 
   <ion-infinite-scroll threshold="100px" (ionInfinite)="loadData($event)">
     <ion-infinite-scroll-content

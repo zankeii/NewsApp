@@ -1,7 +1,14 @@
 <ion-grid>
   <ion-row>
+    <div *ngIf="showDefault === true">
     <ion-col size="12" sizeLg="3" sizeMd="4" sizeSm="6" sizeXs="12" *ngFor="let noticia of news">
-      <app-noticia [noticia]="noticia" [inFavorites]="inFavorites"></app-noticia>
+      <app-noticia [noticia]="noticia" [inFavorites]="inFavorites" [showNoticia]="showDefault"></app-noticia>
     </ion-col>
+    </div>
+    <div *ngIf="showSearch === true">
+      <ion-col size="12" sizeLg="3" sizeMd="4" sizeSm="6" sizeXs="12" *ngFor="let busqueda of busquedaArray">
+        <app-noticia [busqueda]="busqueda" [inFavorites]="inFavorites" [showBusqueda]="showSearch"></app-noticia>
+      </ion-col>
+    </div>
   </ion-row>
 </ion-grid>

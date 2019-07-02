@@ -32,7 +32,7 @@ export class NewsService {
     }
 
     getBusqueda(busqueda) {
-        return this.ejecutarQuery<Article>(`/everything?q=${busqueda}`);
+        return this.ejecutarQuery<RespuestaTopHeadLine>(`/everything?q=${busqueda}`);
     }
 
 

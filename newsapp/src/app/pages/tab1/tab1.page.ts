@@ -12,7 +12,7 @@ export class Tab1Page implements OnInit {
     busquedaArray: Article[] = [];
     busqueda = '';
     showbusqueda: boolean = false;
-    showtopheadlines: boolean = false;
+    showtopheadlines: boolean = true;
 
     constructor(private newsService: NewsService) {
     }
@@ -47,6 +47,7 @@ export class Tab1Page implements OnInit {
     doRefresh(event) {
         console.log('Begin async operation');
         setTimeout(() => {
+            this.showbusqueda = false;
             this.cargarNews();
             event.target.complete();
         }, 2000);
@@ -64,11 +65,12 @@ export class Tab1Page implements OnInit {
             if (this.busqueda.length > 0) {
                 this.newsService.getBusqueda(this.busqueda)
                     .subscribe(busqueda => {
-                        this.busquedaArray.push(busqueda);
+                        this.busquedaArray.push(...busqueda.articles);
                         console.log('busquedaArray : ', this.busquedaArray);
                         // this.isSearching = false;
                     });
             } else {
+                this.showbusqueda = false;
                 this.cargarNews();
             }
         }

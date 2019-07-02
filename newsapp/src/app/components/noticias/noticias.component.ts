@@ -8,6 +8,9 @@ import {Article} from "../../interfaces/interfaces";
 })
 export class NoticiasComponent implements OnInit {
 @Input() news: Article;
+@Input() busquedaArray: Article;
+@Input() showDefault: boolean;
+@Input() showSearch: boolean;
 @Input() inFavorites = false;
   constructor() { }
 
